@@ -12,9 +12,9 @@ from bert4keras.snippets import uniout
 maxlen = 64
 
 # 模型配置
-config_path = '/root/kg/bert/chinese_roformer-sim-char_L-12_H-768_A-12/bert_config.json'
-checkpoint_path = '/root/kg/bert/chinese_roformer-sim-char_L-12_H-768_A-12/bert_model.ckpt'
-dict_path = '/root/kg/bert/chinese_roformer-sim-char_L-12_H-768_A-12/vocab.txt'
+config_path = '/content/chinese_roformer-sim-char_L-12_H-768_A-12/bert_config.json'
+checkpoint_path = '/content/chinese_roformer-sim-char_L-12_H-768_A-12/bert_model.ckpt'
+dict_path = '/content/chinese_roformer-sim-char_L-12_H-768_A-12/vocab.txt'
 
 # 建立分词器
 tokenizer = Tokenizer(dict_path, do_lower_case=True)  # 建立分词器
